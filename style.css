@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.intro-section{
+    height: 800px;
+    background: url('img/bg-1.jpg') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+.logo-container .logo_img{
+    display: block;
+    margin: 0 auto;
+}
+.logo-container .logo_text{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+h1{
+    margin-top: 53px;
+}
+h2.title{
+    margin-top: 30px;
+}
+.title{
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.simple_title_container .title_big{
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+.intro-section .intro_text{
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 13px;
+    margin-top: 23px;
+}
+.intro-section .intro_text span{
+    color: #f9bf3b;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+.intro_btn{
+    width: 313px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+.learn-more_container{
+    margin-top: 45px;
+}
+.learn-more_container .learn-more_txt{
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.learn-more_container img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.description_section{
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+.description_section .description_title, 
+.finish-section .finish_title{
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.finish-section .finish_title{
+    color: #fff;
+}
+.description_section .description_subtitle{
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 17px;
+}
+.descr_line{
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin-top: 18px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.desription_wrapper{
+    margin-top: 45px;
+    display: flex;
+}
+.desription_wrapper .description_item{
+    width: 354px;
+    margin-right: 48px;
+    text-align: center;
+}
+.img_wrapper img{
+    width: 100%;
+}
+.description_item .descr_text{
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 33px;
+}
+.optimization-section{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization-section .optimization_title{
+    color: #299cbd;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.optimization-content-wrapper{
+    width: 750px;
+    float: right;
+}
+.optimization-txt{
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.optimization-txt:first-child{
+    margin-top: 25px;
+}
+.optimization-txt.txt-bold{
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+.optimization_bg{
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+.finish-section{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('img/bg-3.png') center center/cover no-repeat;
+}
+.finish-section .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish-section .finish_wrapper .finish_item{
+    width: 204px;
+}
+.finish_item .finish_round{
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.finish_item .finish_txt{
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+.bonus_section{
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0;
+}
+.bonus_section img{
+    display: block;
+    margin: 0 auto;
+}
+.bonus_section .bonus-txt{
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    margin-top: 42px;
+}
+.vebinar-time_section{
+    min-height: 515px;
+    padding: 89px 0 64px 0;
+}
+.vebinar-time_section .vebinar-time_title{
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 37px;
+}
+.vebinar-time_section .vebinar-time-subtitle{
+    color: #299cbd;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+.vebinar-time_section .vebinar-time-txt{
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+}
+.vebinar-time_section img{
+    display: block;
+    margin: 0 auto;
+}
+footer{
+    min-height: 166px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-txt{
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+}
